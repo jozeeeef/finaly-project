@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+i {
+  font-size: 35px;
+  cursor: pointer;
+  margin: 0 10px;
+  color: black;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.shopping-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(https://i.pinimg.com/originals/0b/23/8b/0b238b4036f442a370a274df6e067aa1.jpg);
+  border-radius: 10px;
+  padding: 3%;
+  margin: 50px 0;
+}
+.total-price span {
+  font-size: 30px;
+}
+
+.total {
+  font-weight: bold;
+}
+.list-products {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  width: 70%;
+}
+.card {
+  background: none;
+  padding: 5%;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quantity {
+  font-size: 25px;
+}
+
+.card-body div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.fa-trash-alt {
+  color: #de6b5c;
+}
+
+p {
+  color: white;
+}
+
+i {
+  color: white;
+}
+
+.quantity {
+  color: white !important;
+}
+
+h4,
+h5 {
+  color: white;
+}
+
+.total {
+  color: white;
+}
+
+span {
+  color: white;
+}
+
+.applelogo {
+  display: flex;
+  justify-content: center;
+}
+
+.logoapple {
+  padding: 30px;
+  width: 20%;
+}
